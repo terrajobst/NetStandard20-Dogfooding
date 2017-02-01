@@ -1,0 +1,11 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <NetStandardImplicitPackageVersion>2.0.0-beta-25001-12</NetStandardImplicitPackageVersion>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="PowerCollections">
+      <HintPath>..\PowerCollections\PowerCollections.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+</Project>

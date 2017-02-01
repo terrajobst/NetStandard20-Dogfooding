@@ -1,0 +1,14 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp2.0</TargetFramework>
+    <NetCoreAppImplicitPackageVersion>2.0.0-beta-001464-00</NetCoreAppImplicitPackageVersion>
+    <RuntimeIdentifier>win10-x86</RuntimeIdentifier>
+  </PropertyGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\ClassLibrary_NetStandard20\ClassLibrary_NetStandard20.csproj" />
+    <Reference Include="PowerCollections">
+      <HintPath>..\PowerCollections\PowerCollections.dll</HintPath>
+    </Reference>    
+  </ItemGroup>
+</Project>
